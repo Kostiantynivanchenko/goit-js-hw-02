@@ -1,9 +1,9 @@
-checkForSpam(message){
+checkForSpam(message) {
     if (message.toLowerCase().includes("sale") || message.toLowerCase().includes("buy")) {
         return true;
     } else {
         return false;
-}
+    }
 }
 console.log(checkForSpam("Latest technology news")); 
 console.log(checkForSpam("JavaScript weekly newsletter")); 
