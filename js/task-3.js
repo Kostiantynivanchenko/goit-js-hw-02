@@ -1,4 +1,4 @@
-checkForSpam(message) {
+function checkForSpam(message) {
     if (message.toLowerCase().includes("sale") || message.toLowerCase().includes("buy")) {
         return true;
     } else {
