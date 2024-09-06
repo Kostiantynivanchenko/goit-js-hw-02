@@ -1,6 +1,6 @@
 function checkForSpam(message) {
     const blackListWord1 = message.toLowerCase().includes("sale");
-    const blackListWord2 = message.toLowerCase().includes("buy");
+    const blackListWord2 = message.toLowerCase().includes("spam");
     if (blackListWord1 || blackListWord2) {
         return true;
     } else {
